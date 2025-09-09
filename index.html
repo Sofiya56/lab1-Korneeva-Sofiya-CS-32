@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Minesweeper — Retro UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="counter" id="mineCounter">000</div>
+    <button id="restart" class="smiley">🙂</button>
+    <div class="counter" id="timer">000</div>
+  </div>
+
+  <div id="boardWrap">
+    <div id="board"></div>
+  </div>
+
+  <div class="toolbar">
+    <button id="btn-easy">Легко</button>
+    <button id="btn-medium">Середній</button>
+    <button id="btn-hard">Складний</button>
+    <button id="btn-new">Нова гра</button>
+  </div>
+
+  <div class="footer">
+    ЛКМ — відкрити • ПКМ — прапорець • Подвійний клік — швидке відкриття
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
